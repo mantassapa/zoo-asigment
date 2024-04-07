@@ -1,0 +1,74 @@
+
+.addAnimal_form_back{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.addAnimal_form{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    z-index: 2;
+}
+.add_form_close{
+    background-color: red;
+    right: 0px;
+    border-radius: 5px;
+    border-color: white;
+}
+.card{
+    padding-top: 20px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card>*{
+    margin: 0px;
+}
+
+.update_button, .delete_button{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    background-color: orange;
+}
+.delete_button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+}
+.edit_card{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.edit_close{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
